@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Siddhardha Convent High School</title>
+  <meta name="description" content="Contact Siddhardha Convent High School, Yadav Nagar, Malkajgiri, Hyderabad. Phone: +91 9849190754. Admissions enquiries welcome.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="preloader"><div class="preloader-spinner"></div></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand"><div class="brand-icon"><img src="images/logo.jpg" alt="Siddhardha Convent High School logo"></div>Siddhardha Convent High School</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="academics.html" class="nav-link">Academics</a></li>
+        <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+        <li><a href="activities.html" class="nav-link">Activities</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="news.html" class="nav-link">News</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li><a href="admissions.html" class="nav-link nav-cta">Admissions</a></li>
+      </ul>
+      <div class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <section class="page-banner">
+    <div class="floating-shapes"><div class="shape shape-1"></div><div class="shape shape-2"></div><div class="shape shape-3"></div></div>
+    <h1>Contact Us</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Contact</span></div>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section">
+    <div class="section-container">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 4rem;">
+        <div class="card" data-animate="fadeInUp" data-delay="0" style="text-align: center;">
+          <div class="card-icon blue" style="margin: 0 auto 1.25rem; width: 80px; height: 80px; border-radius: 50%; font-size: 2rem;">
+            <i class="fas fa-location-dot"></i>
+          </div>
+          <h3>Our Address</h3>
+          <p>Siddhardha Convent High School<br>13-45, Malkajgiri Rd, Yadav Nagar<br>Secunderabad, Telangana 500047</p>
+        </div>
+        <div class="card" data-animate="fadeInUp" data-delay="150" style="text-align: center;">
+          <div class="card-icon yellow" style="margin: 0 auto 1.25rem; width: 80px; height: 80px; border-radius: 50%; font-size: 2rem;">
+            <i class="fas fa-phone"></i>
+          </div>
+          <h3>Phone Number</h3>
+          <p style="font-size: 1.15rem; font-weight: 600; color: #1E3A8A;">+91 9849190754</p>
+          <p style="margin-top: 0.5rem;">Mon - Sat: 8:00 AM - 4:00 PM</p>
+        </div>
+        <div class="card" data-animate="fadeInUp" data-delay="300" style="text-align: center;">
+          <div class="card-icon green" style="margin: 0 auto 1.25rem; width: 80px; height: 80px; border-radius: 50%; font-size: 2rem;">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p style="font-size: 1.05rem; font-weight: 600; color: #1E3A8A;">info@siddhardhaconvent.edu</p>
+          <p style="margin-top: 0.5rem;">We'll respond within 24 hours</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form + Map -->
+  <section class="section bg-white" style="padding-top: 0;">
+    <div class="section-container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+        <!-- Form -->
+        <div data-animate="fadeInLeft">
+          <h2 style="font-family: 'Poppins', sans-serif; font-size: 2rem; margin-bottom: 0.5rem;">Send Us a <span style="color: #1E3A8A;">Message</span></h2>
+          <p style="color: #6B7280; margin-bottom: 2rem;">Have questions about admissions, academics, or anything else? Fill out the form and we'll get back to you.</p>
+          <form class="contact-form" style="box-shadow: none; padding: 0;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">Select a topic</option>
+                <option value="admissions">Admissions Enquiry</option>
+                <option value="academics">Academic Information</option>
+                <option value="fees">Fee Structure</option>
+                <option value="transport">Transport</option>
+                <option value="general">General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div data-animate="fadeInRight">
+          <h2 style="font-family: 'Poppins', sans-serif; font-size: 2rem; margin-bottom: 0.5rem;">Find <span style="color: #1E3A8A;">Us</span></h2>
+          <p style="color: #6B7280; margin-bottom: 2rem;">Located in the heart of Yadav Nagar, Malkajgiri - easily accessible from all parts of Hyderabad.</p>
+          <div style="border-radius: 20px; overflow: hidden; height: 450px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0!2d78.52!3d17.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMalkajgiri%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Siddhardha Convent High School location on Google Maps"
+            ></iframe>
+          </div>
+          <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://wa.me/919849190754" class="btn btn-accent" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i> WhatsApp Us
+            </a>
+            <a href="tel:+919849190754" class="btn btn-outline-dark">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-banner">
+    <div class="floating-shapes"><div class="shape shape-1"></div><div class="shape shape-2"></div></div>
+    <div class="section-container">
+      <div class="cta-content" data-animate="fadeInUp">
+        <h2>Visit Our <span>Campus</span></h2>
+        <p>We welcome parents and students to visit our campus and experience our learning environment.</p>
+        <div class="cta-buttons">
+          <a href="admissions.html" class="btn btn-primary"><i class="fas fa-pen-to-square"></i> Apply Now</a>
+          <a href="about.html" class="btn btn-outline"><i class="fas fa-school"></i> Know More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><img src="images/logo.jpg" alt="Siddhardha Convent High School logo" class="footer-logo"> Siddhardha Convent High School</h3>
+        <p>Providing quality education since 1984. Nurturing confident, disciplined, and responsible students in Malkajgiri, Hyderabad.</p>
+        <div class="footer-social"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a><a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+      </div>
+      <div class="footer-col"><h4>School</h4><ul><li><a href="about.html">About Us</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="academics.html">Academics</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="#">Student Portal</a></li><li><a href="#">Parent Portal</a></li><li><a href="#">Downloads</a></li><li><a href="news.html">News</a></li></ul></div>
+      <div class="footer-col footer-contact"><h4>Contact Us</h4><div class="contact-item"><div class="icon"><i class="fas fa-location-dot"></i></div><p>13-45, Malkajgiri Rd, Yadav Nagar,<br>Secunderabad, Telangana 500047</p></div><div class="contact-item"><div class="icon"><i class="fas fa-phone"></i></div><p>+91 9849190754</p></div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Siddhardha Convent High School. All rights reserved.</p><p>Designed with care for education</p></div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
