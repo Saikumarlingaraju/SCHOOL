@@ -2276,3 +2276,39 @@ img {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Mobile map responsiveness */
+.map-iframe {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  [style*="grid-template-columns: 1fr 1fr"] > div:has(> iframe) {
+    height: auto;
+  }
+  [style*="grid-template-columns: 1fr 1fr"] > div:has(> iframe) > div {
+    height: 350px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  [style*="grid-template-columns: 1fr 1fr"] > div:has(> iframe) > div {
+    height: 320px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  [style*="grid-template-columns: 1fr 1fr"]:has(> div > iframe) {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="grid-template-columns: 1fr 1fr"] > div:has(> iframe) > div {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  [style*="grid-template-columns: 1fr 1fr"] > div:has(> iframe) > div {
+    height: 280px !important;
+  }
+}
